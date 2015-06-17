@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">ArduBand</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Sobre</string>
+    <string name="author">Autor:</string>
+    <string name="author_name">Israel Blancas Álvarez</string>
+    <string name="repository">Ir al repositorio</string>
+    <string name="github">GitHub</string>
 </resources>

@@ -5,7 +5,7 @@
 
         <item name="colorPrimary">@color/ColorPrimary</item>
         <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
-        <!-- Customize your theme here. -->
+        <item name="android:homeAsUpIndicator">@drawable/ic_action</item>
     </style>
 
 </resources>
