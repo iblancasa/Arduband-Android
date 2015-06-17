@@ -4,5 +4,8 @@
     <string name="author">Autor:</string>
     <string name="author_name">Israel Blancas Álvarez</string>
     <string name="repository">Ir al repositorio</string>
-    <string name="github">GitHub</string>
+    <string name="tempo">Tempo</string>
+    <string name="apply">Aplicar</string>
+    <string name="connected">Conectado</string>
+    <string name="disconnected">Desconectado</string>
 </resources>
