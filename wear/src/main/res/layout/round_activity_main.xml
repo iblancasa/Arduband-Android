@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context=".MainActivity" tools:deviceIds="wear_round">
+    android:layout_height="match_parent" android:orientation="vertical" tools:context=".MainActivity" tools:deviceIds="wear_round"
+    android:background="#ffffff">
 
-    <TextView android:id="@+id/text" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" android:text="@string/hello_round" />
-</RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="100"
+        android:id="@+id/tempo"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.62"
+        android:textSize="80dp"
+        android:textIsSelectable="false"
+        android:textColor="#222222"
+        android:autoText="false"
+        android:numeric="integer" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:id="@+id/sumar"
+            android:layout_weight="0.50"
+            android:textSize="60dp"
+            android:background="#00796B" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="-"
+            android:id="@+id/restar"
+            android:layout_weight="0.50"
+            android:textSize="60dp"
+            android:background="#00796B" />
+
+    </LinearLayout>
+</LinearLayout>
